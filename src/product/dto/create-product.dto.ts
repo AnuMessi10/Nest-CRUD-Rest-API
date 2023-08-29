@@ -1,7 +1,7 @@
-export interface Product {
-    id: string;
+export class CreateProductDto {
     name: string;
     description: string;
     price: number;
     quantity: number;
+    isFeatured?: boolean;
 }
